@@ -1,1 +1,6 @@
 /venv
+
+#Vim backup
+*~
+*.swp
+*.swo

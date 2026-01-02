@@ -17,8 +17,7 @@ x_ones = torch.ones_like(x_data)
 print(f"ones tensor: \n {x_ones}ones \n")
 
 x_rand = torch.rand_like(x_data, dtype=torch.float)
-print(f"Random Tensor: \n {x_rand} \n")
-
+print(f"Random Tensor: \n {x_rand} rands \n")
 shape = (2, 3,)
 rand_tensor = torch.rand(shape)
 ones_tensor = torch.ones(shape)
@@ -27,3 +26,11 @@ zeors_tensor = torch.zeros(shape)
 print(f"Random Tensor: \n {rand_tensor} \n")
 print(f"Ones Tensor: \n {ones_tensor} \n")
 print(f"Zeros Tensor: \n {zeors_tensor} \n")
+
+tensor = torch.rand(3, 4)
+print(tensor)
+
+
+
+
+

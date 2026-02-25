@@ -30,6 +30,10 @@ print(f"Zeros Tensor: \n {zeors_tensor} \n")
 tensor = torch.rand(3, 4)
 print(tensor)
 
+#print the first row
+print(f"First row: {tensor[0]}")
+print(f"First col: {tensor[:, 0]}")
+print(f"Last col: {tensor[..., -1]}")
 
 
 
